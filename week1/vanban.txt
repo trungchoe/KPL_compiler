@@ -1,0 +1,15 @@
+﻿Good afternoon, everybody. Today I am here to present to you about System software.
+My presentation is divided into 2 parts: type of system soft ware and install and update software.
+Firstly, I’ll start with some general information about system software.
+System software is a type of computer program that is designed to run computer hardwares and application softwares.
+It includes operating systems and utility programs. The operating system (OS) is the best-known example of system software.
+The OS manages other programs in a computer. It allows the parts of a computer work together by performing tasks like tranfering data between memory and disks or rendering output onto a display divice.
+It provides a platform (hardware abstraction layer) to run high-level system software and application software.
+Some system software is used directly by users and other system software works in the background.
+System software can allow users to interact directly with hardware functionality like the Device Manager and many of the utilities found in the Control Panel on Windows.
+This so-called Utility software helps to analyze, configure, optimize and maintain the computer, such as virus protection.
+Secondly, as you all known the system software is installed on your computer then you install your OS.
+You always want to keep your system updated as much as possible as updates most often focus on bug fixes, so your system will run better, and additional security, so your computer doesn't end up with a virus or something like that.
+The system software will be regularly updated by running “windows update” for windows or “software update” for MacOX.
+That brings us to the end of my presentation. Thank you for listening.
+100%.
