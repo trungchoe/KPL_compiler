@@ -1,0 +1,7 @@
+# ninja log v5
+10	59	608663908	CMakeFiles/scanner.dir/charcode.c.obj	7ede3bd15e0597cf
+14	89	608663908	CMakeFiles/scanner.dir/token.c.obj	366ab1cb7d281c54
+7	92	608663908	CMakeFiles/scanner.dir/reader.c.obj	1a307a067c204903
+4	96	608663908	CMakeFiles/scanner.dir/error.c.obj	d2da264081e91437
+1	176	608663908	CMakeFiles/scanner.dir/scanner.c.obj	7d6e0e5e82bfa783
+176	658	608663908	scanner.exe	f875bfcbe3d5758a
