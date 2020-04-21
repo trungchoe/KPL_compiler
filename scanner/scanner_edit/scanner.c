@@ -47,10 +47,7 @@ Token* readIdentKeyword(void) {
     token->string[count++]= ((char)currentChar);
     readChar();
   }while(((charCodes[currentChar] == CHAR_LETTER) || (charCodes[currentChar] == CHAR_DIGIT))&&currentChar != -1);
-  // if (count > MAX_IDENT_LEN) {
-  //   error(ERR_IDENTTOOLONG, lineNo, colNo);
-  //   return token;
-  // }
+  
   if (count > 10) {
     count = 10;
   }
@@ -274,8 +271,6 @@ void printToken(Token *token) {
   case KW_INTEGER: printf("KW_INTEGER\n"); break;
   case KW_CHAR: printf("KW_CHAR\n"); break;
   case KW_ARRAY: printf("KW_ARRAY\n"); break;
-  case KW_OF: printf("KW_OF\n"); break;
-  case KW_FUNCTION: printf("KW_FUNCTION\n"); break;
   case KW_PROCEDURE: printf("KW_PROCEDURE\n"); break;
   case KW_BEGIN: printf("KW_BEGIN\n"); break;
   case KW_END: printf("KW_END\n"); break;
