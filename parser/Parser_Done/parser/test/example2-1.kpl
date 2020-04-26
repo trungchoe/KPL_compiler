@@ -1,0 +1,14 @@
+Program Example2; (* Factorial *)
+   
+Var n : Integer;
+    i : Integer;
+
+(*Function F(n : Integer;) : Integer;(*loi parameter*)
+
+Begin
+  (*a:=;(*loi expression*)
+  (*a:=b:;(*loi term*)
+  (*a:=b+;(*loi factor*)
+  (*if a;b then a:=b(*loi comparator*)
+  (*call writei(n;) (*loi argument*)
+End. (* Factorial *)
