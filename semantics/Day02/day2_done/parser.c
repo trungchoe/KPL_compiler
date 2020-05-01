@@ -33,8 +33,16 @@ void eat(TokenType tokenType) {
 }
 
 void compileProgram(void) {
-  // TODO: create, enter, and exit program block
- 
+ // TODO: create, enter, and exit program block
+  eat(KW_PROGRAM);
+  eat(TK_IDENT);
+  Object* program = createProgramObject(currentToken->string);
+  enterBlock(program->progAttrs->scope);
+  eat(SB_SEMICOLON);
+  compileBlock();
+  eat(SB_PERIOD);
+  exitBlock();
+}
 
 void compileBlock(void) {
   // TODO: create and declare constant objects
