@@ -340,6 +340,10 @@ void declareObject(Object* obj) {
       break;
     }
   }
+  if (obj->kind == OBJ_TYPE)
+  {
+
+  }else
  
   addObject(&(symtab->currentScope->objList), obj);
 }
