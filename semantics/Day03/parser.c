@@ -436,14 +436,17 @@ void compileAssignSt(void) {
 
   lvalueType = compileLValue();
   eat(SB_ASSIGN);
-  compileExpression();
+  expType = compileExpression();
+  checkTypeEquality(lvalueType, expType);
 }
 
 void compileCallSt(void) {
+  Object* proc;
   eat(KW_CALL);
   eat(TK_IDENT);
-  // TODO: check if the identifier is a declared procedure
-  compileArguments();
+ proc = checkDeclaredProcedure(currentToken->string);
+
+  compileArguments(proc->procAttrs->paramList);
 }
 
 void compileGroupSt(void) {
