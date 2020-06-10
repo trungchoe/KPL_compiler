@@ -1,0 +1,13 @@
+Program Exp1; 
+Var N : integer;
+   Procedure B;
+   Var A : integer;
+   x : array[10] of integer;
+   Begin
+   	A := 10;
+   	N := 30 + A;
+   End;
+Begin
+  Call B; 
+  CALL WRITEI(n);
+End.
